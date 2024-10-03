@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    font-family: Arial; 
+    border: border-box;
+    background-color: #f1f1f1e5;
+}
+
+.navbar{
+    background-color: #fff;
+    height: 70px;
+    min-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-logo{
+    height: 40px;
+    width: 160px;
+}
+.nav-logo img{
+    height: 40px;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+.nav-search{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    right: 20px;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: #f0f5f9;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.search-icon i{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1.2rem; 
+    color: #000;
+    background-color: #f0f5f9;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.nav-ass{
+    cursor: pointer;
+}
+.nav-a{
+    text-decoration: none;
+    color: #000000; 
+    opacity: 0.75;
+
+}   
+.nav-notifi{
+    font-size: 1.2rem;
+    cursor: context-menu;
+    color: #000000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* panel */
+.panel-section{
+    height: 150px;
+    width: 97.5%;
+    min-width: 1000px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: context-menu;
+}
+.panel-section p{
+    font-size: 0.9rem;
+    color: #333333;
+    font-weight: 600;
+}
+.panel-section img{
+    height: 64px;
+    width: 64px;
+    margin-top: 10px;
+}
+
+/* hero */
+.hero{
+    height: 170px;
+    width: 97.5%;
+    min-width: 1000px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.hero img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* mobile-section */
+.mobiles-sec{
+    height: 340px;  
+    width: 82%;
+    min-width: 950px;
+    overflow: hidden;
+    left: 15px;
+    top: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.mob-section{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mob-h2{
+    position: relative;
+    left: 10px;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.mob-div{
+    height: 240px;
+    width: 160px;
+    border: 0.3px solid rgb(185, 185, 185);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0.4rem;
+}
+.mob-div img{
+    width: 140px;
+    height: 170px;
+    margin-left: 10px;
+    background-size: cover;
+}
+.mob-img{
+    height: 340px;
+    width: 14%;
+    background-color: #fff;
+    position: absolute;
+    right: 17px;
+    top: 440px;
+}
+.mob-img img{
+    margin-top: 30px;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+}  
+@media (max-width: 1100px){
+    .mob-img{
+        display: none;
+    }
+}
+
+/* card-section */
+.card{
+    height: 500px;
+    width: 97.5%;
+    min-width: 1100px;
+    position: relative;
+    margin-top: 20px;
+    left: 15px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    overflow: hidden;
+}
+.card-img img{
+    height: 45%;
+    width: 31.7%;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+/* accessorie    */
+p, h2, a:hover{
+    cursor: pointer;
+}
+.accessorie{
+    display: flex;
+    min-width: 1250px;
+    justify-content: space-evenly;
+    height: 620px;
+    position: relative;
+    margin-top: 38px;
+}
+.acce-sec{
+    height: 600px;
+    width: 31.5%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.acce-img{
+    height: 250px;
+    width: 170px;
+    border: 0.3px solid rgb(185, 185, 185);
+    border-radius: 0.3rem;
+    margin: 10px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.acce-sec img{
+    width: 72%;
+    height: 155px;
+    border-radius: 0.3rem;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+.acce-img .normal{
+    font-size: 1.1rem;
+    color: #212121;
+    position: relative;
+    left: 10px;
+}
+.acce-img .off{
+    color: #108934;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 12px;
+}
+
+/* footer */
+.random-text{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.random-text .r-text_p{
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    opacity: 0.62;
+}
+.text-span{
+    opacity: 0.35;
+    font-size: 0.9rem;
+}
+.r-text_p2{
+    font-size: 1rem; 
+    font-weight: 600; 
+    opacity: 0.38;
+}
+
+/* main-foolter */
+.main-footer{
+    background-color: #171718f6;
+    min-width: 950px;
+}
+
+/* footer-text */
+.footer-text{
+    color: #ffffff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.footer-div{
+    height: 200px;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-text a{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 7px;
+}
+.div-text a:hover{
+    text-decoration: underline #ffffff;
+}
+.foot-span{
+    font-size: 0.72rem;
+    color: #878787;
+    font-weight: 500;
+    position: relative;
+    bottom: 9px;
+}
+.div-text-2 div{
+    margin-top: 20px;
+}
+.div-text-2 p{
+    font-size: 0.8rem;
+    margin-top: -10px;
+}
+.div-text-2 p .num{
+    color: #2874f0;
+    opacity: 0.9;
+}
+.div-text-2 div i{
+    position: relative;
+    font-size: 1.4rem;
+    bottom: 5px;
+    margin: 0 10px;
+}   
+span{
+    cursor: context-menu;
+}
+img, i, a{
+    cursor: pointer;
+}
+/* footer_card */
+.footer-card{
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.foot-card{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.foot-card i{
+    font-size: 0.7rem;
+    margin-right: 10px;
+    color: rgb(178, 164, 38);
+}
