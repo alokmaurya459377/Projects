@@ -1,3 +1,3 @@
 # Projects
 
-Projects of HTML and CSS
+Projects of HTML and CSS.
