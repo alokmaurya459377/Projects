@@ -34,11 +34,16 @@ body{
 .f-info-socials,
 .f-info-links {
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .f-info-socials i {
   margin-right: 1rem;
+}
+
+.social_icon{
+  text-decoration: none;
+  color: #222222;
 }
 
 .f-info {
